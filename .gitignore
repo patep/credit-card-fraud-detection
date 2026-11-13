@@ -1,0 +1,36 @@
+# =================( 1. Python & Virtual Environments )=================
+venv/
+env/
+ENV/
+.env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# =================( 2. Jupyter Notebooks )=================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# =================( 3. IDEs & Operating System Files )=================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =================( 4. Data & Large Files )=================
+# Ignore raw or processed data files so you don't commit sensitive or huge datasets
+data/
+*.csv
+*.parquet
+*.json
+*.zip
+
+# =================( 5. Trained Models )=================
+# Large model binaries (.joblib, .pkl, .h5). 
+# If they are small (<50MB) you can remove this line, but heavy models belong in cloud storage or Git LFS.
+models/*.joblib
+models/*.pkl
